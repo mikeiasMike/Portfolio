@@ -1,0 +1,80 @@
+main {
+    padding: 5%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+/* main content */
+main .main-content {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+main .main-content h2 {
+    margin-bottom: 3%;
+    font-size: 2.2em;
+}
+main .main-content .text {
+    margin-bottom: 10%;
+}
+main .main-content .text p {
+    width: 100%;
+    font-size: 1.2em;
+    font-weight: 300;
+}
+/* cards */
+main .techs {
+    width: 100%;
+}
+main .techs .cards-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+main .techs .cards-container .card {
+    flex: 1;
+    min-width: 120px;
+    max-width: 200px;
+    height: 120px;
+    padding: 1%;
+    background-color: #eee;
+    border-radius: 8px;
+    margin: 1% 0.5%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: box-shadow 0.25s ease-in-out;
+}
+main .techs .cards-container .card img {
+    width: 80%;
+}
+main .techs .cards-container .card:hover {
+    box-shadow: 0px 0px 8px #00e0ff;
+}
+/* figure */
+main figure {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 5%;
+}
+main figure img {
+    width: 350px;
+    height: 350px;
+    border-radius: 175px;
+    cursor: pointer;
+    margin-bottom: 6%;
+    border: 1px #00e0ff solid;
+    transition: 0.2s ease-in-out;
+}
+main figure img:hover {
+    box-shadow: 0px 0px 6px #00e0ff;
+}
+main figcaption {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
